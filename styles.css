@@ -1,0 +1,72 @@
+* {
+    line-height: 1.25;
+    overflow-x: hidden;
+}
+
+header {
+     margin-top: 2%;
+     border-bottom: gray solid 5px;
+     margin: 0;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    flex: 1;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+nav li {
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin-right: 5%;
+    
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a {
+    color: firebrick;
+}
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column ;
+}
+
+main {
+    flex: 1;
+    padding: 2%;
+}
+
+
+
+footer {
+    border-top: gray solid 5px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
